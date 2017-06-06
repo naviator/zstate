@@ -1,0 +1,8 @@
+# Include sources
+-cp src
+-cp test
+
+# Flash flags
+-swf-version 12.0
+-swf out/zstate.swf
+-main ZTestSuite

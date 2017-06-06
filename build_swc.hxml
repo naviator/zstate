@@ -1,0 +1,15 @@
+# Include sources
+-cp src
+
+# Lib
+-lib hscript
+
+# Flash flags
+-swf-version 12.0
+-swf bin/zstate.swc
+
+# Haxe flags
+-dce no
+
+--macro include('io')
+--no-traces
