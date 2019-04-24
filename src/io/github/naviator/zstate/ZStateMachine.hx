@@ -1,7 +1,5 @@
 package io.github.naviator.zstate;
 
-import Map.Map;
-
 class ZStateMachine<T> {
 
     // do error checking
@@ -452,7 +450,7 @@ class ZStateMachine<T> {
     }
 
     // UPDATE
-    inline private function updateValues():Void {
+    private function updateValues():Void {
 
         // update observers
         for (i in 0...observers.length) {
